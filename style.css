@@ -1,0 +1,86 @@
+header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #FF00FF;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+header > div {
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+  background-color: #CC99CC;
+}
+
+main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 300px;
+  background-color: #CCFFCC;
+  
+}
+.right {
+  width: 720px;
+  padding: 20px;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.right > div {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+footer {
+  width: 100%;
+  height: 15%;
+  padding: 20px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+footer > div {
+  max-width: 600px;
+  height: 40px;
+  background-color: #CCFFFF;
+  flex-basis: 45%;
+  margin: 10px;
+}
+
+footer > div:nth-child(3) {
+  
+}
+.flex {
+  background-color: #00c7ce;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
